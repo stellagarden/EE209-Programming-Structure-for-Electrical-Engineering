@@ -1,0 +1,26 @@
+20190533 Lee Hyemin Assignment3
+
+1. ABOUT HELP
+I've received lots of help from our professor's lecture note. The code about hash table helped me a lot.
+Execpt that, I haven't received any other helps from any other sources.
+
+
+2. COMPARE ARRAY AND HASH TABLE
+We can think of two cases, when the number of customers are few or lot.
+
+If there's only few customers, implementing with array would be efficient way.
+That's because even if we implement with hash table, the number of nodes in each hash index will be 0 or 1 or 2. (Whatever, it would be very small.)
+This means that if we implement with hash table in the case we have few customers, this will just use unnecessary memory and take time to calculate hash.
+Even though the structure of array and hash table is not that different in this case.
+
+In contrast, if there's lots of customers, implementing with hash function would be much efficient.
+Let's assume there are n customers registered.
+In case of array, regardless of the number of customers, if we want to search something, we have to go over almost every nodes, n nodes, on average.
+However, hash function shows it's ability in this case.
+If the size of hash array is m, to search something, we only need to go over n/m nodes, on average.
+
+So there's some pros and cons of implementing with array and hash table.
+
+
+3. HASH TABLE EXPANSION
+Implemented. It's in a function named "ResizeD".
