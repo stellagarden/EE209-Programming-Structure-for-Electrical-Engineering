@@ -1,0 +1,14 @@
+Hyemin Lee 20190533 Assignment2
+
+1. ABOUT SOMEONE'S HELP
+I did Part1 well, but I've got some problem in Part2. "Segmentation Fault" bothered me.
+Since I didn't know about gdb, I was very suffering. However, my room mate, SangA Choi had taught me how to use gdb.
+By utilizing gdb, I was able to debug the problems and successfully completed my code.
+
+2. DISCUSSION ABOUT StrCopy
+NO
+Assert function can only determine whether the memory is empty or not.
+It can't determine the included value is valuable or not.
+
+3. EXTRA CREDIT
+I used ONLY POINTER NOTATION in Part1 to get extra credit :)
