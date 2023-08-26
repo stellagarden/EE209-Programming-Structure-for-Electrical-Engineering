@@ -1,4 +1,4 @@
-# In depth Study of C Language
+# EE209 Programming Structure for Electrical Engineering
 
 ### Duration and Location
 - Sep 2020 - Dec 2020 (2020 Fall)
